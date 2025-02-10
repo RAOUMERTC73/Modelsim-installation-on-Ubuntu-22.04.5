@@ -1,4 +1,6 @@
 # ModelSim Installation Guide for Ubuntu 22.04.5 (AMD64)
+## For MODELSIM SETUP FILE & UVM SETUP FOLDER :
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/um16/) or drop me an email at [raoumer160903@gmail.com](mailto:raoumer160903@gmail.com).
 
 ## Prerequisites
 Ensure you have the **ModelSimSetup-*-linux.run** file in your home directory before proceeding.
