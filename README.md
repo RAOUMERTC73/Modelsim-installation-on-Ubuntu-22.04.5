@@ -82,4 +82,46 @@ cd ~/intelFPGA/*.*/modelsim_ase/bin/
 
 ---
 
+## After Doing This All, Follow Below Steps:
+
+### Steps to Follow for ModelSim Installation on Ubuntu 22.04.5 (AMD64)
+
+1) Set the PATH:
+
+   ```bash
+   bash
+   nano ~/.bashrc   # After opening the .bashrc file, set the path
+   ```
+   In the export path, change `ubuntu` to your username:
+   
+   ```bash
+   export PATH=/home/ubuntu/intelFPGA/20.1/modelsim_ase/bin:${PATH}
+   ```
+
+2) Add the universe repository:
+
+   ```bash
+   sudo add-apt-repository universe
+   ```
+
+3) Install required dependencies:
+
+   ```bash
+   sudo apt-get install libxft2 libxft2:i386 libncurses5
+   sudo apt-get install libxtst6:i386
+   sudo apt-get install gcc-multilib g++-multilib
+   ```
+
+---
+
+## Installation of Sublime Text
+
+```bash
+sudo snap install --classic sublime-text
+subl
+```
+
+---
+
+
 
